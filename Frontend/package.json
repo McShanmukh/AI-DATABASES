@@ -1,0 +1,65 @@
+{
+  "name": "aidatabases",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "aphrodite": "^2.4.0",
+    "axios": "^0.19.2",
+    "chart.js": "^2.9.3",
+    "delay": "^4.3.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "highcharts": "^7.2.1",
+    "highcharts-react-official": "^2.2.2",
+    "http-proxy-middleware": "^0.20.0",
+    "material-ui": "^0.20.2",
+    "mdbreact": "^4.24.0",
+    "moment": "2.24.0",
+    "node-sass": "4.12.0",
+    "nouislider": "14.0.2",
+    "react": "16.8.6",
+    "react-animations": "^1.0.0",
+    "react-bootstrap-switch": "15.5.3",
+    "react-chartjs-2": "^2.8.0",
+    "react-datetime": "2.16.3",
+    "react-dom": "16.8.6",
+    "react-motion": "^0.5.2",
+    "react-pose": "^4.0.10",
+    "react-router": "5.0.1",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.0.1",
+    "react-spring": "^8.0.27",
+    "react-tap-event-plugin": "^3.0.3",
+    "reactstrap": "8.0.1"
+  },
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css",
+    "minify-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/now-ui-kit.scss src/assets/css/now-ui-kit.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "typescript": "3.5.3",
+    "node-sass": "^4.13.1"
+  }
+}
