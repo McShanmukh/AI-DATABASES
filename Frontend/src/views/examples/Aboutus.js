@@ -6,13 +6,14 @@ import './Aboutus.css';
 function Aboutus() {
   return (
     <div className="Aboutus">
-      <div>
+<div>
+  
   <div className="pageWrapper" id="wrapper">
     <section className="company-heading intro-type" id="parallax-one">
       <div className="container">
         <div className="hell">
           <div className="col-md-12">
-            <h1>About Us</h1>
+            <h1>ABOUT US</h1>
           </div>
         </div>
       </div>
@@ -20,12 +21,15 @@ function Aboutus() {
         className="parallax"
         id="parallax-cta"
         style={{
-          backgroundImage: "url(https://www.baringa.com/BaringaWebsite/media/BaringaMedia/Article%20headers/Financial-Services-Carousel-Banner-v2-1920x540.jpg?ext=.jpg)"
+          backgroundImage: "url(https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80)"
         }}
       />
+      
+
+
     </section>
     <section
-      className="story-section company-sections ct-u-paddingBoth100 paddingBothHalf noTopMobilePadding"
+      className="story-section company-sections ct-u-paddingBoth100"
       id="section"
     >
       <div className="container">
