@@ -5,10 +5,8 @@ import makeAnimatedValidationSearchBox from './search-box-controller';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import {SelectField, MenuItem} from 'material-ui'
 
-// (Make material-ui happy)
-// Needed for onTouchTap
-// http://stackoverflow.com/a/34015469/988941
-import injectTapEventPlugin from 'react-tap-event-plugin';
+
+// import injectTapEventPlugin from 'react-tap-event-plugin';
 // injectTapEventPlugin();
 
 
@@ -30,7 +28,7 @@ class App extends Component {
     render() {
         //https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/
         const style = {
-            position: 'fixed',
+            position: 'absolute',
             top: '15%',
             left: '50%',
             transform: 'translate(-50%, -50%)',

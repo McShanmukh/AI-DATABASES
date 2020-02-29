@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "react-router-dom";
+// import Link from "react-router-dom";
 // reactstrap components
 import {
   Collapse,
@@ -117,11 +117,11 @@ function ExamplesNavbar() {
             </div> */}
            
             <Nav navbar>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink href="#">
                   Subscriptions
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink href="/reg">
                   Login
